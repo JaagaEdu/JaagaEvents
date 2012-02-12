@@ -4,20 +4,37 @@
     android:layout_height="fill_parent"
     android:orientation="vertical" >
 
+     <LinearLayout
+         android:orientation="horizontal"
+         android:layout_width="match_parent"
+         android:layout_height="48dp"
+         android:background="@drawable/action_bar_background">
+         <ImageView
+             android:layout_width="130dp"
+             android:layout_height="48dp"
+             android:src="@drawable/jaagalogo48"/>
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:gravity="center"
+             android:textColor="#7093db"
+             android:textSize="20dp"
+             android:text="Upcoming Events"/>
+         </LinearLayout>
     <ListView
         android:id="@android:id/list"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#888888"
-        android:divider="#00c0c0"
+        android:background="#ffffff"
+        android:divider="#ffffff"
         android:dividerHeight="1dp"
-        android:drawSelectorOnTop="false"/>
+        android:drawSelectorOnTop="true"/>
 
     <TextView
         android:id="@android:id/empty"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#888888"
+        android:background="#ffffff"
         android:gravity="center"
         android:text="@string/empty_list"/>
     

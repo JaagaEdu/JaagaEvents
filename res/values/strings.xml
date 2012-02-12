@@ -3,5 +3,6 @@
 
     <string name="app_name">JaagaEvents</string>
     <string name="empty_list">There are no events to Display</string>
-
+    <string name="more">></string>
+    
 </resources>
